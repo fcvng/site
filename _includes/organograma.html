@@ -1,0 +1,10 @@
+<li>
+    <strong>{{ include.person.nome }}</strong> - <em>{{ include.person.cargo }}</em>
+    {% if include.person.subordinates %}
+    <ul>
+        {% for subordinate in include.person.subordinates %}
+        {% include organograma.html person=subordinate %}
+        {% endfor %}
+    </ul>
+    {% endif %}
+</li>

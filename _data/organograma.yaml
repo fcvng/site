@@ -1,0 +1,17 @@
+organograma:
+  - nome: "CEO"
+    cargo: "Chief Executive Officer"
+    subordinates:
+      - nome: "CTO"
+        cargo: "Chief Technology Officer"
+        subordinates:
+          - nome: "Dev Manager"
+            cargo: "Development Manager"
+            subordinates:
+              - nome: "Dev Team Lead"
+                cargo: "Development Team Lead"
+      - nome: "CFO"
+        cargo: "Chief Financial Officer"
+        subordinates:
+          - nome: "Finance Manager"
+            cargo: "Finance Manager"

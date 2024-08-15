@@ -1,0 +1,4 @@
+---
+layout: organigram
+permalink: "/orga"
+---

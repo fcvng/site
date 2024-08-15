@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<ul>
+    {% for person in site.data.organograma %}
+    {% include organograma.html person=person %}
+    {% endfor %}
+</ul>

@@ -3,10 +3,10 @@
   <channel>
     <title>Jekyll Advance</title>
     <description></description>
-    <link>http://0.0.0.0:4000/</link>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Jul 2024 18:33:16 -0500</pubDate>
-    <lastBuildDate>Wed, 24 Jul 2024 18:33:16 -0500</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 02 Dec 2024 17:27:29 +0000</pubDate>
+    <lastBuildDate>Mon, 02 Dec 2024 17:27:29 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -84,9 +84,9 @@
   &lt;li&gt;abbreviations&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sun, 13 Feb 2022 03:49:03 -0600</pubDate>
-        <link>http://0.0.0.0:4000/blog/2022-02-13-improving-page-speed/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/blog/2022-02-13-improving-page-speed/</guid>
+        <pubDate>Sun, 13 Feb 2022 09:49:03 +0000</pubDate>
+        <link>http://localhost:4000/blog/2022-02-13-improving-page-speed/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2022-02-13-improving-page-speed/</guid>
         
         
         <category>Seo</category>
@@ -170,9 +170,9 @@
   &lt;li&gt;abbreviations&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 11 Feb 2022 10:49:03 -0600</pubDate>
-        <link>http://0.0.0.0:4000/blog/2022-02-10-ideas-to-help-business-grow/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/blog/2022-02-10-ideas-to-help-business-grow/</guid>
+        <pubDate>Fri, 11 Feb 2022 16:49:03 +0000</pubDate>
+        <link>http://localhost:4000/blog/2022-02-10-ideas-to-help-business-grow/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2022-02-10-ideas-to-help-business-grow/</guid>
         
         
         <category>Branding</category>
@@ -256,9 +256,9 @@
   &lt;li&gt;abbreviations&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 26 Jul 2021 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/blog/2021-07-26-design-systems-that-scale/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/blog/2021-07-26-design-systems-that-scale/</guid>
+        <pubDate>Mon, 26 Jul 2021 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/2021-07-26-design-systems-that-scale/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021-07-26-design-systems-that-scale/</guid>
         
         
         <category>Design</category>
@@ -342,9 +342,9 @@
   &lt;li&gt;abbreviations&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 23 Jul 2021 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/blog/2021-07-23-working-with-jekyll/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/blog/2021-07-23-working-with-jekyll/</guid>
+        <pubDate>Fri, 23 Jul 2021 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/2021-07-23-working-with-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021-07-23-working-with-jekyll/</guid>
         
         
         <category>Product</category>
@@ -426,9 +426,9 @@
   &lt;li&gt;abbreviations&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 20 Jul 2021 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/blog/2021-07-20-targeting-keywords-for-traffic/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/blog/2021-07-20-targeting-keywords-for-traffic/</guid>
+        <pubDate>Tue, 20 Jul 2021 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/2021-07-20-targeting-keywords-for-traffic/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021-07-20-targeting-keywords-for-traffic/</guid>
         
         
         <category>Seo</category>
@@ -512,9 +512,9 @@
   &lt;li&gt;abbreviations&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sat, 27 Feb 2021 00:00:00 -0600</pubDate>
-        <link>http://0.0.0.0:4000/blog/2021-02-27-analytics-metrics-for-business/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/blog/2021-02-27-analytics-metrics-for-business/</guid>
+        <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/blog/2021-02-27-analytics-metrics-for-business/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021-02-27-analytics-metrics-for-business/</guid>
         
         
         <category>Development</category>
@@ -598,9 +598,9 @@
   &lt;li&gt;abbreviations&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Thu, 10 Sep 2020 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/blog/2020-09-10-reaching-your-audience/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/blog/2020-09-10-reaching-your-audience/</guid>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/2020-09-10-reaching-your-audience/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020-09-10-reaching-your-audience/</guid>
         
         
         <category>Branding</category>
@@ -682,9 +682,9 @@
   &lt;li&gt;abbreviations&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sun, 09 Aug 2020 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/blog/2020-08-09-using-liquid-templates/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/blog/2020-08-09-using-liquid-templates/</guid>
+        <pubDate>Sun, 09 Aug 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/2020-08-09-using-liquid-templates/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020-08-09-using-liquid-templates/</guid>
         
         
         <category>Branding</category>
@@ -766,9 +766,9 @@
   &lt;li&gt;abbreviations&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 22 Jun 2020 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/blog/2020-06-22-css-html/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/blog/2020-06-22-css-html/</guid>
+        <pubDate>Mon, 22 Jun 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/2020-06-22-css-html/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020-06-22-css-html/</guid>
         
         
         <category>Branding</category>
@@ -850,9 +850,9 @@
   &lt;li&gt;abbreviations&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 14 Feb 2020 00:00:00 -0600</pubDate>
-        <link>http://0.0.0.0:4000/blog/2020-02-14-creative-ideas-for-writing/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/blog/2020-02-14-creative-ideas-for-writing/</guid>
+        <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/blog/2020-02-14-creative-ideas-for-writing/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020-02-14-creative-ideas-for-writing/</guid>
         
         
         <category>Branding</category>

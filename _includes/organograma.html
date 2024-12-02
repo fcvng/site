@@ -1,10 +1,97 @@
-<li>
-    <strong>{{ include.person.nome }}</strong> - <em>{{ include.person.cargo }}</em>
-    {% if include.person.subordinates %}
-    <ul>
-        {% for subordinate in include.person.subordinates %}
-        {% include organograma.html person=subordinate %}
-        {% endfor %}
-    </ul>
-    {% endif %}
-</li>
+<div class="organograma-wrapper">
+    <div class="organograma">
+        <div class="orgao-title">{{ include.title }}</div>
+
+        <!-- Presidente -->
+        {% if include.data.presidente %}
+        <div class="nivel">
+            <div class="pessoa">
+                <img src="{{ include.data.presidente.foto }}" alt="{{ include.data.presidente.nome }}">
+                <strong>{{ include.data.presidente.nome }}</strong>
+                <span>Presidente</span>
+                <em>{{ include.data.presidente.associacao }}</em>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Secretários da Assembleia-Geral -->
+        {% if include.data.primeiro_secretario or include.data.segundo_secretario %}
+        <div class="nivel">
+            {% if include.data.primeiro_secretario %}
+            <div class="pessoa">
+                <img src="{{ include.data.primeiro_secretario.foto }}" alt="{{ include.data.primeiro_secretario.nome }}">
+                <strong>{{ include.data.primeiro_secretario.nome }}</strong>
+                <span>1º Secretário</span>
+                <em>{{ include.data.primeiro_secretario.associacao }}</em>
+            </div>
+            {% endif %}
+            {% if include.data.segundo_secretario %}
+            <div class="pessoa">
+                <img src="{{ include.data.segundo_secretario.foto }}" alt="{{ include.data.segundo_secretario.nome }}">
+                <strong>{{ include.data.segundo_secretario.nome }}</strong>
+                <span>2º Secretário</span>
+                <em>{{ include.data.segundo_secretario.associacao }}</em>
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+
+        <!-- Secretário e Relator do Conselho Fiscal -->
+        {% if include.data.secretario or include.data.relator %}
+        <div class="nivel">
+            {% if include.data.secretario %}
+            <div class="pessoa">
+                <img src="{{ include.data.secretario.foto }}" alt="{{ include.data.secretario.nome }}">
+                <strong>{{ include.data.secretario.nome }}</strong>
+                <em>{{ include.data.secretario.associacao }}</em>
+                <span>Secretário</span>
+            </div>
+            {% endif %}
+            {% if include.data.relator %}
+            <div class="pessoa">
+                <img src="{{ include.data.relator.foto }}" alt="{{ include.data.relator.nome }}">
+                <strong>{{ include.data.relator.nome }}</strong>
+                <em>{{ include.data.relator.associacao }}</em>
+                <span>Relator</span>
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+
+
+        <!-- Vice-Presidentes -->
+        {% if include.data.vice_presidentes %}
+        <div class="nivel">
+            {% for vice in include.data.vice_presidentes %}
+            {% assign index = forloop.index %}
+            <div class="pessoa">
+                <img src="{{ vice.foto }}" alt="{{ vice.nome }}">
+                <strong>{{ vice.nome }}</strong>
+                <span>Vice-Presidente</span>
+                <em>{{ vice.associacao }}</em>
+            </div>
+            {% if forloop.index == 4 %}
+        </div>
+        <div class="nivel">
+            {% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}
+
+
+        <!-- Suplentes -->
+        {% if include.data.suplentes %}
+        <div class="suplentes">
+            <div class="suplentes-title">Suplentes</div>
+            {% for suplente in include.data.suplentes %}
+            <div class="pessoa">
+                <img src="{{ suplente.foto }}" alt="{{ suplente.nome }}">
+                <strong>{{ suplente.nome }}</strong>
+                <span>Suplente</span>
+                <em>{{ suplente.associacao }}</em>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</div>

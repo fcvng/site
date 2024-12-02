@@ -1,4 +1,5 @@
 ---
 layout: organigram
-permalink: "/orga"
+permalink: "/fcvng/orgaos-sociais/"
 ---
+

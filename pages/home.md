@@ -8,12 +8,12 @@ meta_title: Jekyll Advance - Premium Jekyll Theme
 
 hero:
   enabled: true
-  heading: "Jekyll Advance"
-  sub_heading: "Built using highly configurable sections, Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
+  heading: "Federação das Coletividades de Vila Nova de Gaia"
+  sub_heading: "Ao Serviço do Movimento Associativo"
   text_color: "#FFFFFF"
-  background_color: "#1d2830"
-  background_gradient: true
-  background_image: "/assets/images/gen/home/home-1-large.webp"
+  background_color: "#2e2830"
+  background_gradient: false
+  background_image: "/assets/images/gen/home/homepage.jpg"
   background_image_blend_mode: overlay # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: false
@@ -37,7 +37,7 @@ hero:
         style: "light"
 
 services:
-  enabled: true
+  enabled: false
   heading: "Our Services"
   sub_heading: ""
   limit: 6
@@ -47,7 +47,7 @@ services:
   prevent_click: false
 
 intro:
-  enabled: true
+  enabled: false
   align: left
   image: "/assets/images/gen/content/content-5-thumbnail.webp"
   heading: "We've helped hundreds of people grow their business online."
@@ -75,12 +75,12 @@ intro:
         style: "primary"
 
 partners:
-  enabled: true
+  enabled: false
   limit: 5
   sort: "weight" # 'date'
 
 projects:
-  enabled: true
+  enabled: false
   heading: "Our Projects"
   sub_heading: ""
   limit: 2
@@ -91,7 +91,7 @@ projects:
   prevent_click: false
 
 outro:
-  enabled: true
+  enabled: false
   align: center
   image: false
   heading: Get Started Today
@@ -110,7 +110,7 @@ outro:
         size: "large"
 
 posts:
-  enabled: true
+  enabled: false
   heading: "Latest Posts"
   sub_heading: ""
   limit: 3

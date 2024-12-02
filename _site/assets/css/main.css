@@ -26386,4 +26386,98 @@ html[data-bs-theme=dark] .card.card-service .card-icon img {
   background-color: var(--color-base-bg-3);
 }
 
+/* Wrapper Principal */
+.organograma-wrapper {
+  font-family: "Source Sans 3", sans-serif;
+  background-color: #181b1d; /* Fundo do organograma */
+  color: #fff;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 80px auto 0 auto; /* Espaçamento no topo (80px ajustável) */
+}
+
+/* Títulos dos Órgãos */
+.orgao-title {
+  font-size: 1.8rem;
+  color: #ffd700; /* Cor dourada para destaque */
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Nível Hierárquico */
+.nivel {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Permite quebrar para novas linhas */
+  gap: 20px; /* Espaçamento horizontal entre membros */
+  margin: 20px 0;
+}
+
+/* Cartão de Pessoa */
+.pessoa {
+  text-align: center;
+  background-color: #2d4156; /* Cor do fundo */
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra */
+  max-width: 150px;
+  min-width: 120px;
+}
+
+/* Foto */
+.pessoa img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  background-color: #ccc; /* Placeholder */
+}
+
+/* Nome */
+.pessoa strong {
+  display: block;
+  font-size: 1.1rem;
+  color: #ffd700; /* Nome em destaque */
+  margin-bottom: 5px;
+}
+
+/* Posição */
+.pessoa span {
+  display: block;
+  font-size: 1rem;
+  color: #ccc; /* Cor do cargo */
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Associação */
+.pessoa em {
+  display: block;
+  font-size: 0.9rem;
+  color: #aaa; /* Cor da associação */
+  font-style: normal; /* Remover itálico */
+}
+
+/* Suplentes */
+.suplentes {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  flex-wrap: wrap; /* Permite quebrar em múltiplas linhas */
+  gap: 20px; /* Espaçamento entre os suplentes */
+  margin-top: 20px;
+}
+
+.suplentes-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffd700; /* Destaque para título de suplentes */
+  text-align: center;
+  width: 100%; /* Garante que o título ocupe a largura completa */
+}
+
+body {
+  padding-top: 80px; /* Altura do header */
+}
+
 /*# sourceMappingURL=main.css.map */

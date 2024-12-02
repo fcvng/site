@@ -1,17 +1,70 @@
-organograma:
-  - nome: "CEO"
-    cargo: "Chief Executive Officer"
-    subordinates:
-      - nome: "CTO"
-        cargo: "Chief Technology Officer"
-        subordinates:
-          - nome: "Dev Manager"
-            cargo: "Development Manager"
-            subordinates:
-              - nome: "Dev Team Lead"
-                cargo: "Development Team Lead"
-      - nome: "CFO"
-        cargo: "Chief Financial Officer"
-        subordinates:
-          - nome: "Finance Manager"
-            cargo: "Finance Manager"
+mesa_assembleia_geral:
+  presidente:
+    nome: "César Fernando Couto Oliveira"
+    associacao: "Associação Recreativa de Canelas"
+    foto: "https://via.placeholder.com/100"
+  primeiro_secretario:
+    nome: "José Simão Ferreira Ribeiro"
+    associacao: "Associação Cultural e Recreativa \"Os Novinhos de Quebrantões\""
+    foto: "https://via.placeholder.com/100"
+  segundo_secretario:
+    nome: "Marta Filipa Carvalho Moreira da Silva"
+    associacao: "Preservar Memórias – Associação Cultural e Recreativa"
+    foto: "https://via.placeholder.com/100"
+  suplentes:
+    - nome: "Vânia Patrícia Soares Pinheiro"
+      associacao: "Tuna Musical de Santa Marinha"
+      foto: "https://via.placeholder.com/100"
+
+direcao:
+  presidente:
+    nome: "Paulo José da Silva Rodrigues"
+    associacao: "Centro Recreativo de Mafamude"
+    foto: "https://via.placeholder.com/100"
+  vice_presidentes:
+    - nome: "Eduardo Luís Oliveira Fernandes"
+      associacao: "Associação Cultural e Recreativa \"Os Amigos Vilarenses\""
+      foto: "https://via.placeholder.com/100"
+    - nome: "Licínio Manuel Moreira dos Santos"
+      associacao: "Amigos do Solar Condes de Resende"
+      foto: "https://via.placeholder.com/100"
+    - nome: "Manuel Eduardo da Silva Moura"
+      associacao: "Associação Cultural e Recreativa \"Os Plebeus Avintenses\""
+      foto: "https://via.placeholder.com/100"
+    - nome: "Hugo José Machado de Oliveira"
+      associacao: "Centro Popular dos Trabalhadores do Areinho - Oliveira do Douro"
+      foto: "https://via.placeholder.com/100"
+    - nome: "João José Lopes Farinha Alves"
+      associacao: "Clube da Malha de Gaia"
+      foto: "https://via.placeholder.com/100"
+    - nome: "Aurélio da Silva Morais"
+      associacao: "Futebol Clube de Gaia"
+      foto: "https://via.placeholder.com/100"
+    - nome: "Maria Isabel Queiroz Silva de Lacerda"
+      associacao: "Grupo Folclórico de Danças e Cantares de Mafamude"
+      foto: "https://via.placeholder.com/100"
+    - nome: "Joaquim Ricardo Coelho da Mota"
+      associacao: "Grupo Musical da Mocidade Perosinhense"
+      foto: "https://via.placeholder.com/100"
+  suplentes:
+    - nome: "Sandra Cristina Almeida Silva"
+      associacao: "Associação Recreativa Canidelense"
+      foto: "https://via.placeholder.com/100"
+
+conselho_fiscal:
+  presidente:
+    nome: "Fernando Jorge Dias Andrade"
+    associacao: "Associação Recreativa de Canidelo"
+    foto: "https://via.placeholder.com/100"
+  secretario:
+    nome: "Paulo Alexandre Gonçalves de Almeida"
+    associacao: "Grupo Recreativo e Cultural do Loureiro"
+    foto: "https://via.placeholder.com/100"
+  relator:
+    nome: "Armando Correira Nunes da Silva"
+    associacao: "Orfeão da Madalena"
+    foto: "https://via.placeholder.com/100"
+  suplentes:
+    - nome: "António Lopes"
+      associacao: "Centro Cultural e Recreativo do Lugar de Gaia"
+      foto: "https://via.placeholder.com/100"

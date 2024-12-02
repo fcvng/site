@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
+<!-- Mesa da Assembleia-Geral -->
+{% include organograma.html title="Mesa da Assembleia-Geral" data=site.data.organograma.mesa_assembleia_geral %}
 
-<ul>
-    {% for person in site.data.organograma %}
-    {% include organograma.html person=person %}
-    {% endfor %}
-</ul>
+<!-- Direção -->
+{% include organograma.html title="Direção" data=site.data.organograma.direcao %}
+
+<!-- Conselho Fiscal -->
+{% include organograma.html title="Conselho Fiscal" data=site.data.organograma.conselho_fiscal %}

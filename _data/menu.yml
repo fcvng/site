@@ -16,4 +16,4 @@ main:
       - name: "Relatório de Atividades"
         url: /documentos/relatorio-atividades/
       - name: "Pareceres do Conselho Fiscal"
-        url: /projects/pareceres-conselho-fiscal/
+        url: /documentos/pareceres-conselho-fiscal/

@@ -1,0 +1,15 @@
+reports:
+  - year: 2023
+    title: Relatório de Atividades 2023
+    description: Resumo das iniciativas realizadas em 2023.
+    file: /assets/reports/2023-relatorio-de-atividades.pdf
+activity_plans:
+  - year: 2024
+    title: Plano de Atividades 2024
+    description: Planeamento estratégico para 2024.
+    file: /assets/planos/2024-plano-de-atividades.pdf
+fiscal_opinions:
+  - year: 2023
+    title: Parecer do Conselho Fiscal 2023
+    description: Avaliação das contas e estratégias do ano de 2023.
+    file: /assets/pareceres/2023-parecer-conselho-fiscal.pdf

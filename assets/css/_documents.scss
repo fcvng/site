@@ -1,0 +1,64 @@
+// Estilo base para documentos
+.documents-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+    color: #222;
+  }
+
+  h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    color: #444;
+    margin-top: 20px;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  // Estilo para tabelas
+  .document-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+    th, td {
+      text-align: left;
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f4f4f4;
+      font-weight: 700;
+      color: #555;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

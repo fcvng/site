@@ -1,0 +1,26 @@
+<div class="documents-container">
+    <h1>{{ include.title }}</h1>
+    <p>{{ include.description }}</p>
+
+    <h2>{{ include.section_title }}</h2>
+    <table class="document-table">
+        <thead>
+        <tr>
+            <th>Ano</th>
+            <th>Título</th>
+            <th>Descrição</th>
+            <th>Download</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for doc in site.data[include.data_file] %}
+        <tr>
+            <td>{{ doc.year }}</td>
+            <td>{{ doc.title }}</td>
+            <td>{{ doc.description }}</td>
+            <td><a href="{{ doc.file }}" target="_blank">Download</a></td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>

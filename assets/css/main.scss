@@ -47,12 +47,16 @@ html[data-bs-theme='dark'] {
 }
 
 @import 'style';
+@import "fonts";
+@import "cookieconsent";
+@import "documents";
+
 
 /* Wrapper Principal */
 .organograma-wrapper {
   font-family: 'Source Sans 3', sans-serif;
-  background-color: #181b1d; /* Fundo do organograma */
-  color: #fff;
+  background-color: var(--base_bg_3); /* Fundo do organograma */
+  color: var(--text); /* Texto principal */
   padding: 20px;
   max-width: 1200px;
   margin: 80px auto 0 auto; /* Espaçamento no topo (80px ajustável) */
@@ -61,7 +65,7 @@ html[data-bs-theme='dark'] {
 /* Títulos dos Órgãos */
 .orgao-title {
   font-size: 1.8rem;
-  color: #ffd700; /* Cor dourada para destaque */
+  color: var(--primary_bg); /* Cor principal para destaque */
   text-align: center;
   margin-bottom: 20px;
   font-weight: bold;
@@ -79,12 +83,13 @@ html[data-bs-theme='dark'] {
 /* Cartão de Pessoa */
 .pessoa {
   text-align: center;
-  background-color: #2d4156; /* Cor do fundo */
+  background-color: var(--primary_bg_2); /* Fundo do cartão */
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra */
   max-width: 150px;
   min-width: 120px;
+  color: var(--primary_text); /* Texto no cartão */
 }
 
 /* Foto */
@@ -93,14 +98,14 @@ html[data-bs-theme='dark'] {
   height: 100px;
   border-radius: 50%;
   margin-bottom: 10px;
-  background-color: #ccc; /* Placeholder */
+  background-color: var(--base_bg_2); /* Placeholder */
 }
 
 /* Nome */
 .pessoa strong {
   display: block;
   font-size: 1.1rem;
-  color: #ffd700; /* Nome em destaque */
+  color: var(--primary_bg); /* Nome em destaque */
   margin-bottom: 5px;
 }
 
@@ -108,7 +113,7 @@ html[data-bs-theme='dark'] {
 .pessoa span {
   display: block;
   font-size: 1rem;
-  color: #ccc; /* Cor do cargo */
+  color: var(--text_2); /* Cor do cargo */
   margin-bottom: 5px;
   font-weight: bold;
 }
@@ -117,7 +122,7 @@ html[data-bs-theme='dark'] {
 .pessoa em {
   display: block;
   font-size: 0.9rem;
-  color: #aaa; /* Cor da associação */
+  color: var(--text); /* Cor da associação */
   font-style: normal; /* Remover itálico */
 }
 
@@ -133,10 +138,11 @@ html[data-bs-theme='dark'] {
 .suplentes-title {
   font-weight: bold;
   margin-bottom: 10px;
-  color: #ffd700; /* Destaque para título de suplentes */
+  color: var(--primary_bg); /* Destaque para título de suplentes */
   text-align: center;
   width: 100%; /* Garante que o título ocupe a largura completa */
 }
+
 
 body {
   padding-top: 80px; /* Altura do header */
